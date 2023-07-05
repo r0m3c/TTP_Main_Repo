@@ -101,14 +101,13 @@ h2 {
     margin: 5px;
 } */
 
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 body {
-    /* 1rem = 16px */
     font-size: 2rem;
     font-family:'Times New Roman', Times, serif;
 }
@@ -119,10 +118,185 @@ main {
     text-align: left;
     text-indent: 3rem;
     line-height: 1.5;
-    /* letter-spacing: .2em; */
     word-spacing: .8em;
     color: red;
     font-weight: 600;
     font-style: italic;
     background-color: blue;
+} */
+
+/* Links */
+/* body {
+    font-size: 2rem;
+    font-family: monospace;
+} */
+
+/* a {
+    text-decoration: none;
+    cursor:crosshair;
+    color: rgb(99,99,215);
+} */
+
+/* pseudo classes */
+/* used for a elemnts */
+/* a:visited {
+    color: red;
+}
+
+a:hover {
+    color: chartreuse;
+} */
+
+/* a:active {
+    color: darkolivegreen;
+}
+
+/*  */
+
+/* body {
+    padding: 5% 10%;
+    font-size: 2rem;
+    font-family: monospace;
+}
+
+ol {
+    list-style-type:upper-roman;
+} */
+
+/* ul {
+    list-style-type: square;
+    text-align: center;
+    list-style-position: inside;
+    color: red; */
+    /* list-style-image: url("../images/lion_test.jpeg"); */
+/* } */
+
+/* ul li {
+    color: green
+} */
+
+/* select specific li childs */
+/* ul li:nth-child(2) {
+    color: red;
+} */
+
+/* ul li:nth-child(3) {
+    color: blue;
+} */
+
+/* stylize bullet points */
+/* ul ::marker {
+    color: purple;
+    font-family: fantasy;
+    font-size: 2rem;
+    content: "10% off "
+} */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 2rem;
+    font-family: monospace;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: blue;
+    background-color: red;
+}
+
+li {
+    display: inline-block;
+} */
+
+/* 16px */
+/* 1rem = 16px */
+/* 2rem = 32px */
+
+
+/* body {
+    font-size: 2rem;
+    font-family: monospace;
+}
+
+.columns {
+    column-count: 4;
+    column-width: 250px;
+    column-rule: 4px dotted black;
+    column-gap: 3rem;
+}
+
+.columns p {
+    margin-top: 0;
+}
+
+.columns .quote {
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+    column-span: all;
+}
+
+.nowrap {
+    white-space: nowrap;
+} */
+
+/* Position */
+/* universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 2rem;
+    font-family: monospace;
+}
+
+.outer-container {
+    border: 3px solid red;
+    width: 900px;
+    height: 500px;
+    margin: 90px;
+    position: relative;
+}
+
+.inner-container {
+    border: 3px solid blue;
+    width: 700px;
+    height: 200px;
+    margin: 100px;
+    /* position: relative; */
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    color: green;
+    padding: 1rem;
+}
+
+/* using the paragraph element to move */
+.absolute {
+    background-color: green;
+    position: absolute;
+    top: 100px;
+    right: 50px;
 }
