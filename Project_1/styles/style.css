@@ -1,0 +1,181 @@
+* {
+  margin-left: 20px;
+  margin-right: 20px;
+  box-sizing: border-box;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  justify-content: center;
+  position: relative;
+  background-color: #000000;
+}
+
+hr {
+  border-color: rgb(255, 255, 255); 
+  background-color: blue; 
+  height: 2px;
+}
+
+nav {
+  top: 0;
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+  z-index: 1;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+nav a:hover {
+  color: rgb(48, 55, 187);
+  background-color: white;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
+  bottom: 0;
+  font-size: 1.1rem;
+  color: rgb(0, 0, 0);
+  padding: 7px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+footer p {
+  margin: 0;
+  color: black;
+}
+
+header, footer {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+audio {
+  width: 200px;
+}
+
+.blue {
+  text-align: center;
+  font-size: 50px;
+}
+
+.red {
+  text-align: center;
+  font-size: 50px;
+}
+
+.green {
+  text-align: center;
+  font-size: 50px;
+}
+
+.button-cont {
+  text-align: center;
+}
+
+.button-cont button {
+  color: white;
+  background-color: green;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  text-decoration: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.column {
+  flex: 1 0 300px; 
+  padding: 10px;
+  box-sizing: border-box;
+  max-width: 300px;
+  text-align: center;
+  background-color: #CE4A4A;
+  border-radius: 20px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.column img {
+  width: 60%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.about-flex-container {
+  padding-left: 5%; 
+  padding-right: 5%; 
+  align-items: center;
+  padding-bottom: 5%;
+}
+
+@media (min-width: 56.25em){
+  .about-flex-container {
+      display: flex;  
+  }
+}
+
+.about-main-content {
+  flex: 1;  
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.about-section-title {
+  font-size: 60px;
+  font-weight: 600; 
+  text-align: center;
+}
+
+.about-section-description {
+  font-size: 24px;
+}
+
+.about-button-section {
+  text-align: center;
+}
+
+.about-button {
+  color: white;
+  background-color: green;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  text-decoration: none;
+}
+
+.about-img-section {
+  flex: .75 0 300px;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.about-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%; 
+  height: 80%;
+  border-radius: 10px;
+  box-shadow:  0px 0px 5px black;
+}
