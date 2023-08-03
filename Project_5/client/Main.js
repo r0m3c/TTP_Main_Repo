@@ -114,7 +114,6 @@ function Main() {
 
   return (
     <div>
-      {/* Wrap your app with RouterProvider */}
       <RouterProvider router={router} />
     </div>
   );
